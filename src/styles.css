@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f3f3f3;
+}
+
+.header {
+    background: #222;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.left-col {
+    width: 40%;
+}
+
+.right-col {
+    width: 60%;
+}
+
+.order-details {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.order-details .empty {
+    padding: 20px;
+    color: #666;
+}
+
+.order-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.btn-delete {
+    background: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu-list {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.menu-button .btn-add {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    cursor: pointer;
+    text-align: left;
+}
+
+.menu-button img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.price {
+    font-size: 13px;
+    color: #666;
+}
+
+.footer {
+    text-align: center;
+    padding: 12px;
+    color: #666;
+    margin-top: 20px;
+}
